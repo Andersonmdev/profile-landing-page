@@ -32,9 +32,9 @@ export default function Background() {
                 >
                   {experience.period}
                 </p>
-                <h3 className="mt-1 text-xl font-bold text-cyan-500">
+                <h1 className="mt-1 text-xl font-bold text-cyan-500">
                   {t(experience.role)}
-                </h3>
+                </h1>
                 <h4 className="text-cyan-500">{experience.company}</h4>
               </div>
               <SeeHereButton href={experience.link} />

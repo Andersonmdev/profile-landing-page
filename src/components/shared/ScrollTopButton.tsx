@@ -21,14 +21,13 @@ export function ScrollTopButton() {
   }, []);
 
   return (
-    <>
-      <button
-        id="scroll-top-button"
-        className={`pointer-events-none fixed bottom-4 right-2 rounded-full bg-cyan-400 opacity-0 transition duration-700 ease-in-out hover:opacity-80 focus:outline-none focus:ring-1 focus:ring-cyan-300 focus:ring-opacity-50 xl:bottom-6 xl:right-4`}
-        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-      >
-        <FaArrowCircleUp className="h-8 w-8 fill-cyan-800 md:h-9 md:w-9 xl:h-10 xl:w-10" />
-      </button>
-    </>
+    <button
+      id="scroll-top-button"
+      aria-label="Scroll to top"
+      className={`pointer-events-none fixed bottom-4 right-2 rounded-full bg-cyan-400 opacity-0 transition duration-700 ease-in-out hover:opacity-80 focus:outline-none focus:ring-1 focus:ring-cyan-300 focus:ring-opacity-50 xl:bottom-6 xl:right-4`}
+      onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+    >
+      <FaArrowCircleUp className="h-8 w-8 fill-cyan-800 md:h-9 md:w-9 xl:h-10 xl:w-10" />
+    </button>
   );
 }

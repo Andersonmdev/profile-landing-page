@@ -23,9 +23,9 @@ export default function Projects() {
             >
               <div className="flex h-full flex-col justify-between gap-3">
                 <div>
-                  <h3 className="mt-1 text-2xl font-bold text-cyan-600">
+                  <h1 className="mt-1 text-2xl font-bold text-cyan-600">
                     {t(freelance.title)}
-                  </h3>
+                  </h1>
                   <p className="mt-2 text-pretty text-justify text-slate-100">
                     {t(freelance.description)}
                   </p>
@@ -50,9 +50,9 @@ export default function Projects() {
             >
               <div className="flex h-full flex-col justify-between gap-3">
                 <div>
-                  <h3 className="mt-1 text-2xl font-bold text-cyan-600">
+                  <h1 className="mt-1 text-2xl font-bold text-cyan-600">
                     {t(project.title)}
-                  </h3>
+                  </h1>
                   <p className="mt-2 text-justify text-slate-100">
                     {t(project.description)}
                   </p>
@@ -73,7 +73,8 @@ export default function Projects() {
             <a
               href="/"
               target="_blank"
-              className="rounded-sm text-blue-500 focus:border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-300 focus:ring-opacity-50"
+              aria-label="GitHub profile"
+              className="rounded-sm text-blue-800 focus:border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-300 focus:ring-opacity-50"
             >
               GitHub
             </a>

@@ -24,6 +24,7 @@ export function HeaderNavigation() {
             <li key={item.href} className="nav-item invisible">
               <a
                 href={item.href}
+                aria-label={item.ariaLabel}
                 className={`rounded-lg font-lora text-xl font-bold text-slate-100
               hover:text-cyan-300 focus:border-cyan-300 focus:outline-none focus:ring-2 
               focus:ring-cyan-300 focus:ring-opacity-50 xl:text-3xl`}
