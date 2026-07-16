@@ -5,7 +5,7 @@
   "seo": {
     "title": "Portfólio Anderson Magro Mattei",
     "description": "Portfólio Anderson Magro Mattei - Desenvolvedor Full Stack",
-    "keywords": "Anderson Magro Mattei, desenvolvedor, React, Node, Javascript, TypeScript, portfolio, desenvolvedor web"
+    "keywords": "Anderson Magro Mattei, desenvolvedor, React, React Native, Node, Javascript, TypeScript, PostgreSQL, desenvolvedor web"
   },
   "navigation": {
     "about": "Sobre",
@@ -16,7 +16,7 @@
   "about": {
     "title": "Sobre mim",
     "role": "Desenvolvedor Full Stack",
-    "description1": "Atuo como desenvolvedor a mais de 6 anos, criando soluções",
+    "description1": "Atuo como desenvolvedor a mais de 7 anos, criando soluções",
     "description2": "modernas",
     "description3": "e",
     "description4": "escaláveis",
@@ -28,7 +28,7 @@
       "Desenvolvimento e integração de APIs",
       "Suporte e manutenção de aplicações"
     ],
-    "summary": "Especialista no ecossistema React e Node, modernização de sistemas legados e design de arquitetura modular. Estou sempre buscando aprimorar minhas habilidades e conhecimentos, mantendo-me atualizado com as novas tecnologias e tendências do mercado. Focando sempre na entrega de soluções de alto desempenho, centradas no usuário, com impacto mensurável nos negócios."
+    "summary": "Profissional com experiência no desenvolvimento de plataformas web escaláveis, especializado na definição de arquiteturas modulares, criação de design systems e modernização de sistemas legados. Atua na construção de soluções de alta qualidade, priorizando escalabilidade, manutenibilidade, performance e experiência de desenvolvimento. Focado na adoção de workflows apoiados por Inteligência Artificial para acelerar a engenharia de software, elevar a qualidade das entregas e aumentar a produtividade das equipes."
   },
   "experience": {
     "title": "Experiência",
@@ -36,9 +36,9 @@
     "developer": "Desenvolvedor Pleno",
     "juniorDeveloper": "Desenvolvedor Júnior",
     "internQaAnalyst": "Estagiário QA",
-    "descriptionRbs": "Atuo como desenvolvedor no time de B2C com a implementação de um fluxo completo de aquisição de conteúdo via Pix dentro de um portal de notícias, com integração de um novo gateway de pagamentos e adaptação da arquitetura do produto para suportar segmentação de matérias para venda individual.",
+    "descriptionWefit": "Definição de soluções arquiteturais baseadas em microfrontends para uma plataforma de agendamento de consultas e exames, acelerando a evolução do produto, reduzindo o tempo de entrega de novas funcionalidades e aumentando a capacidade de adaptação às demandas do negócio.",
+    "descriptionRbs": "Atuação no time de B2C com a implementação de um fluxo completo de aquisição de conteúdo via Pix dentro de um portal de notícias, com integração de um novo gateway de pagamentos e adaptação da arquitetura do produto para suportar segmentação de matérias para venda individual.",
     "descriptionGenialnet": "Responsável pelo desenvolvimento front-end na migração de um sistema legado desktop para uma plataforma web, implementando uma arquitetura modular, projetada para garantir escalabilidade, manutenibilidade e baixo acoplamento entre módulos.",
-    "descriptionAgrtec": "Atuação na concepção e desenvolvimento de um aplicativo e-commerce voltado à comercialização de produtos agrícolas. Integração com múltiplas APIs externas (commodities, clima, pagamentos e notícias), ampliando significativamente o valor funcional do produto.",
     "descriptionGesec": "Participação ativa em uma aplicação web para um sistema VMS (Video Management System) suportando mais de 64 câmeras. Implementação por meio do protocolo WebSocket de funcionalidades críticas integradas a câmeras IP e sensores, com foco em monitoramento centralizado e controle de acesso em tempo real.",
     "descriptionGeosapiens": "Estágio na equipe de QA, atuando no levantamento de requisitos, planejamento de testes e desenvolvimento de testes automatizados end-to-end (E2E) para as plataformas web e mobile."
   },

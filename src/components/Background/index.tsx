@@ -11,7 +11,7 @@ import { Chip } from '../shared/Chip';
 export default function Background() {
   const { t } = useTranslation();
 
-  const { ref: ref, inView: inView } = useInView({
+  const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0.1,
   });
